@@ -1,0 +1,55 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+nav {
+    position: absolute;
+    right: 0;
+    padding-right: 8rem;
+}
+
+@media (min-width: 851px) {
+    .menu li {
+        display: inline-block;
+        font-weight: 600;
+        margin-left: 4rem;
+        cursor: pointer;
+    }
+    
+    .menu {
+        font-size: 1em;
+    }
+    .logo {
+        margin: 2rem 7rem;
+    }
+  }
+  
+  /* If the screen size is 850px wide or less */
+  @media (max-width: 850px) {
+    .menu li {
+        list-style: none;
+        margin-right: 20px;
+        margin-left: 0;
+    }
+    nav {
+        padding-right: 0rem;
+    }
+    .logo {
+        margin: 2rem 0rem 2rem 2rem;
+    }
+  }
+
+  .menu a:hover,
+  .menu a:active,
+  .menu a.active {
+    color: #293241;
+}
+
+.logo img{
+    width: 12rem;
+}
