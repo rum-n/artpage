@@ -13,6 +13,29 @@ nav {
     padding-right: 8rem;
 }
 
+nav button {
+    background-color: #fff;
+    border-radius: 6px;
+    padding: 0.8rem 2rem;
+    border: 2px solid #000;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.4s;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav button:hover {
+    background-color: #cc6cbf;
+    transition: 0.4s;
+}
+
+header a,
+header a:visited {
+    text-decoration: none;
+    color: #000;
+}
+
 @media (min-width: 851px) {
     .menu li {
         display: inline-block;
