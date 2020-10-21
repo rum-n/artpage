@@ -1,7 +1,7 @@
 .cta-wrapper {
     display: flex;
     flex-direction: row;
-    margin-top: 10rem;
+    margin-top: 20rem;
     justify-content: space-around;
 }
 
@@ -27,7 +27,7 @@
 .cta-examples {
     background-color: rgb(226, 119, 151);
     border-radius: 6px;
-    padding: 0.6rem 2.5rem;
+    padding: 0.8rem 2.5rem;
     border: 2px solid #000;
     font-size: 1rem;
     font-weight: 600;
