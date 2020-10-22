@@ -17,7 +17,7 @@
 }
 
 .cta-btn {
-    background-color: rgb(135, 204, 108);
+    background-color: #87cc6c;
     border-radius: 6px;
     padding: 0.8rem 3.5rem;
     border: 2px solid #000;
@@ -29,7 +29,7 @@
 }
 
 .cta-btn:hover {
-    background-color:rgba(135, 204, 108, 0.678);
+    background-color:rgba(135, 204, 108, 0.7);
     box-shadow: 4px 4px 4px 0px #1d2c17;
     transition: 0.4s;
 }
@@ -49,4 +49,10 @@
 .header-img {
     display: flex;
     justify-content: center;
+}
+
+.feature-title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 10rem;
 }

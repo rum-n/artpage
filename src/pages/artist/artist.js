@@ -5,10 +5,18 @@ import './styles.css';
 
 const Artist = () => {
     return (
-        <div>
+        <div className='main'>
             <h1>Welcome to Doni's art gallery</h1>
-        </div>     
+            <div className='artwork-wrapper'>
+                <div className='artpiece'></div>
+                <div className='artpiece'></div>
+                <div className='artpiece'></div>
+            </div>
+            <h2>About Doni</h2>
+            <h2>External links</h2>
+            <h2>How to buy</h2>
+        </div>
     )
 }
 
-export default Artist; 
+export default Artist;

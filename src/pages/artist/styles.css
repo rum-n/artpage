@@ -1,0 +1,12 @@
+.artwork-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 5rem auto;
+}
+
+.artpiece {
+    width: 30%;
+    height: 25rem;
+    border: 1px solid #000;
+}

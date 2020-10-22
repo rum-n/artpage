@@ -9,22 +9,22 @@ const Examples = () => {
         <section>
             <div className='examples-wrapper'>
                 <div className='art-example'>
-                <img src={sparrow} alt='Little Sparrow' />
+                    <img src={sparrow} alt='Little Sparrow' />
                     <p className='art-title'>Little Sparrow</p>
                     <p className='painter'>Dony Boyadzhieva, 2018</p>
-                    <a className='art-link'>View gallery &#8594;</a>
+                    <a className='art-link' href='/doni'>View gallery &#8594;</a>
                 </div>
                 <div className='art-example'>
-                <img src={flower} alt='Protea Flower' />
+                    <img src={flower} alt='Protea Flower' />
                     <p className='art-title'>Protea Watercolor</p>
                     <p className='painter'>Violeta Boyadzhieva, 2018</p>
-                    <a className='art-link'>View gallery &#8594;</a>
+                    <a className='art-link' href='#'>View gallery &#8594;</a>
                 </div>
                 <div className='art-example'>
                     <img src={violin} alt='Violinist' />
                     <p className='art-title'>The Violinist</p>
                     <p className='painter'>Rumen Manev Sr., 2018</p>
-                    <a className='art-link'>View gallery &#8594;</a>
+                    <a className='art-link' href='#'>View gallery &#8594;</a>
                 </div>
             </div>
         </section>

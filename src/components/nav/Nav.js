@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import './styles.css';
-// import logo from './../../assets/logo.png';
+import logo from './../../assets/logo.png';
 
 const Nav = () => {
     
@@ -9,7 +9,8 @@ const Nav = () => {
         <header>
             <NavLink to='/'>
                 <div className='logo'>
-                    <h1>artpage</h1>
+                    {/* <h1>artpage</h1> */}
+                    <img src={logo} alt="Artpage logo"/>
                 </div>
             </NavLink>
             <nav>

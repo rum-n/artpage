@@ -25,10 +25,10 @@
 }
 
 .cta-examples {
-    background-color: rgb(226, 119, 151);
+    background-color: #e27797;
     border-radius: 6px;
     padding: 0.8rem 2.5rem;
-    border: 2px solid #000;
+    border: 2px solid rgb(0, 0, 0);
     font-size: 1rem;
     font-weight: 600;
     cursor: pointer;
