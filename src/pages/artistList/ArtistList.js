@@ -6,6 +6,7 @@ import flower from './../../assets/flower.jpg';
 // import logo from './../../assets/logo.png';
 import Footer from './../../components/footer/Footer';
 import Nav from './../../components/nav/Nav';
+import { Link } from 'react-router-dom';
 
 const ArtistList = () => {
     return (
