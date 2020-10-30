@@ -11,7 +11,7 @@ const CallToAction = () => {
                     <h3>Join now and create your art page</h3>
                 </div>
                 <div className='buttons-wrapper'>
-                    <a><button className='cta-btn'>Join now</button></a>
+                    <Link><button className='cta-btn'>Join now</button></Link>
                     <Link to='/artists'><button className='cta-examples'>See all artists</button></Link>
                 </div>
             </div>
