@@ -11,6 +11,7 @@ const Artist = () => {
                 <div className='artpiece'></div>
                 <div className='artpiece'></div>
                 <div className='artpiece'></div>
+                <div className='artpiece'></div>
             </div>
             <h2>About Doni</h2>
             <h2>External links</h2>
