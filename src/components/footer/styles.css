@@ -1,6 +1,6 @@
 footer {
-    width: 80%;
-    height: 10rem;
+    width: 60%;
+    height: 3rem;
     margin: 3rem auto;
     display: flex;
     align-items: center;
@@ -8,7 +8,7 @@ footer {
 }
 
 footer img {
-    width: 10rem;
+    width: 5rem;
 }
 
 footer p {
@@ -31,7 +31,7 @@ footer a:hover {
 hr {
     width: 80%;
     border: 0.5px solid #3d5a8046;
-    margin-bottom: -5rem;
+    /* margin-bottom: -5rem; */
     margin-top: 5rem;
 }
 

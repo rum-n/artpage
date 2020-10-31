@@ -1,12 +1,47 @@
 .artwork-wrapper {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-evenly;
-    margin: 5rem auto;
+    margin: 4rem auto;
+    /* width: 80%; */
+}
+
+.artist-info {
+    width: 95%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.artist-bio {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
 }
 
 .artpiece {
     width: 30%;
     height: 25rem;
     border: 1px solid #000;
+    margin-top: 2rem;
+}
+
+.external-link-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.external-links a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.external-links {
+    width: 30%;
+}
+
+.buy-info {
+    width: 30%;
 }
